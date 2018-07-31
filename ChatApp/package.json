@@ -1,0 +1,38 @@
+{
+  "name": "ChatApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "start-watch": "nodemon server/server.js",
+    "build": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/socket.io": "^1.4.31",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "helmet": "^3.9.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.4",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/express-handlebars": "0.0.29",
+    "@types/handlebars": "^4.0.36",
+    "@types/helmet": "0.0.37",
+    "@types/lodash": "^4.14.82",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^8.0.50",
+    "@types/request": "^2.0.7",
+    "@types/yargs": "^8.0.2"
+  }
+}

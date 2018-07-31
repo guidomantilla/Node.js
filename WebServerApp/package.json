@@ -1,0 +1,32 @@
+{
+  "name": "WebServerApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node control/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "helmet": "^3.9.0",
+    "lodash": "^4.17.4",
+    "request": "^2.83.0",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/express-handlebars": "0.0.29",
+    "@types/handlebars": "^4.0.36",
+    "@types/helmet": "0.0.37",
+    "@types/lodash": "^4.14.82",
+    "@types/node": "^8.0.50",
+    "@types/request": "^2.0.7",
+    "@types/yargs": "^8.0.2"
+  }
+}

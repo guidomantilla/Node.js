@@ -1,0 +1,19 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-var-keyword": true,
+        "no-console": false,
+        "no-consecutive-blank-lines": false,
+        "eofline": false,
+        "comment-format": false,
+        "no-empty": false,
+        "interface-name": false,
+        "callable-types": false
+
+    },
+    "rulesDirectory": []
+}
